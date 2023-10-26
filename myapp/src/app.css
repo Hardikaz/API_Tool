@@ -11,3 +11,28 @@
 .upcontent{
     border-bottom: 1px solid black;
 }
+
+/* Input Box */
+
+.inputBox{
+    background-color: aquamarine;
+    display: flex;
+}
+
+/* Container */
+
+.APIcontainer{
+    background-color: blueviolet;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+}
+
+/* Content Box */
+
+.contentType{
+    display: flex;
+}
