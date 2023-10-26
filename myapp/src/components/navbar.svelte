@@ -1,9 +1,10 @@
 <script>
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+   import "../app.css";
 </script>
 
 
-<Navbar  >
+<Navbar  class="navbar">
   <NavBrand href="/">
 
     <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">&lt/Devstar&gtstar </span>
