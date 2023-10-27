@@ -21,14 +21,19 @@
 
 /* Container */
 
-.APIcontainer{
-    background-color: blueviolet;
-    height: 50vh;
+.apiBox{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    
+}
+
+.APIcontainer{
+    background-color: blueviolet;
+    height: 52vh; 
     width: 80vw;
+    text-align: center;
+    border: 5px solid green;
 }
 
 /* Content Box */
