@@ -35,9 +35,30 @@
 /* Input Box */
 
 
-.inputBox{
-    background-color: aquamarine;
+.inputBox{   
     display: flex;
+    height: 10vh;
+    align-items: center;
+}
+
+.inp{
+    width: 65vw;
+    margin-top: 23px;
+}
+
+.sendBtn{
+    background-color: rgb(127, 243, 204);
+    color: green;
+    font-weight: bold;
+}
+
+.dropDownBtn{
+    height: 6.5vh;
+    background-color: rgb(127, 243, 204);
+    color: green;
+    text-align: left;
+    font-weight: bold;
+   
 }
 
 /* Container */
@@ -62,6 +83,7 @@
     width: 50vw;   
     text-align: center;
     color: var(--text-color);
+    margin-bottom: 30px;
     
 }
 
@@ -73,15 +95,27 @@
 }
 
 .APIcontainer{
-    background-color: blueviolet;
+    background-color: var(--background-color);
     height: 52vh; 
     width: 80vw;
     text-align: center;
-    border: 5px solid green;
+    border: 3px solid rgba(210, 213, 204, 0.703);
+    border-radius: 10px;
+    padding: 20px;
 }
 
+/* DropDown Button */
+.dropDownBtn{
+    width: 10vw;
+}
 /* Content Box */
 
 .contentType{
     display: flex;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+}
+
+.contentOption{
+  color: var(--text-color);
 }

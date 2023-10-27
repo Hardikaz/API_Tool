@@ -7,7 +7,7 @@
 <Navbar  class="navbar">
   <NavBrand href="/">
 
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white devStr">&lt/Devstar&gtstar </span>
+    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white devStr">&lt/Dev&gtstar </span>
   </NavBrand>
   <NavHamburger  />
   <NavUl >

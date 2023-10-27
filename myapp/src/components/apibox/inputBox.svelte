@@ -8,22 +8,24 @@ import { ChevronDownSolid } from 'flowbite-svelte-icons';
 
 <div class="inputBox">
 
-<Button>Dropdown button<ChevronDownSolid class="w-3 h-3 ml-2 text-white dark:text-white" /></Button>
 
-<Dropdown>
-  <DropdownItem>Dashboard</DropdownItem>
-  <DropdownItem>Settings</DropdownItem>
-  <DropdownItem>Earnings</DropdownItem>
-  <DropdownItem>Sign out</DropdownItem>
+<Button class="dropDownBtn">GET <ChevronDownSolid class="w-3 h-3 ml-2 text-white dark:text-white" /></Button>
+
+<Dropdown class="dropDown">
+  <DropdownItem>GET</DropdownItem>
+  <DropdownItem>POST</DropdownItem>
+  <DropdownItem>PUT</DropdownItem>
+  <DropdownItem>DELETE</DropdownItem>
+  <DropdownItem>HEAD</DropdownItem>
 </Dropdown>
 
 <div class="mb-6">
-  <Label for="default-input" class="block mb-2">Default input</Label>
-  <Input id="default-input" placeholder="Default input" />
+ 
+  <Input id="default-input" class="inp" placeholder="https://api.challenge.hennge.com/challenges/003" />
  
 </div>
 
-<Button color="green" type="Submit" pill>Send</Button> 
+<Button color="green" class="sendBtn" type="Submit" pill>Send</Button> 
 
 
 </div>

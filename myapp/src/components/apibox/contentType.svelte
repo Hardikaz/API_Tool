@@ -4,12 +4,12 @@
 
 <div class="contentType">
 
-<p>Content Type</p>
+<p style="margin-right:20px">Content Type</p>
 
-<Radio name="type">Text</Radio>
-<Radio name="type">JavaScript</Radio>
-<Radio name="type">JSON</Radio>
-<Radio name="type">HTML</Radio>
-<Radio name="type">XML</Radio>
+<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">Text</Radio>
+<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">JavaScript</Radio>
+<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">JSON</Radio>
+<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">HTML</Radio>
+<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">XML</Radio>
 
 </div>
