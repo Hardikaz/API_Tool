@@ -5,7 +5,10 @@
     name: 'message',
     label: 'Your message',
     rows: 4,
-    placeholder: 'Leave a comment...'
+    placeholder: `{
+      "Sample":"sample",
+      "contact_email":"xyz@gmail.com",
+}`
   };
 </script>
 
