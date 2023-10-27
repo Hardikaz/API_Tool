@@ -26,6 +26,10 @@
 .navbar{
    
     background-color: var(--background-color);
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid var(--text-color);
+    
 }
 
 .upcontent{
@@ -74,7 +78,7 @@
     font-size: 50px;
     color: var(--heading-color);
     font-weight: bolder;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
    
    
@@ -96,7 +100,7 @@
 
 .APIcontainer{
     background-color: var(--background-color);
-    height: 52vh; 
+    height: 60vh; 
     width: 80vw;
     text-align: center;
     border: 3px solid rgba(210, 213, 204, 0.703);
@@ -110,6 +114,10 @@
 }
 /* Content Box */
 
+.bodyContentHead{
+    text-align: left;
+    color: var(--heading-color);
+}
 .contentType{
     display: flex;
     color: var(--heading-color);
@@ -118,4 +126,11 @@
 
 .contentOption{
   color: var(--text-color);
+}
+
+/* Response Heading */
+
+.respHead{
+    text-align: left;
+    color: var(--heading-color);
 }

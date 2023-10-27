@@ -9,4 +9,5 @@
   };
 </script>
 
+<p class="bodyContentHead">Body</p>
 <Textarea {...textareaprops} />
