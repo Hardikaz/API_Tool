@@ -34,12 +34,36 @@
 
 /* Input Box */
 
+
 .inputBox{
     background-color: aquamarine;
     display: flex;
 }
 
 /* Container */
+
+.upcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upperPara{
+    text-align: center;
+    font-size: 50px;
+    color: var(--heading-color);
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   
+   
+}
+.upperParaContent{
+    width: 50vw;   
+    text-align: center;
+    color: var(--text-color);
+    
+}
 
 .apiBox{
     display: flex;
