@@ -6,10 +6,10 @@
 
 <p style="margin-right:20px">Content Type</p>
 
-<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">Text</Radio>
-<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">JavaScript</Radio>
-<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">JSON</Radio>
-<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">HTML</Radio>
-<Radio name="type" class="contentOption" style="margin-right:20px,margin-left:10px">XML</Radio>
+<Radio name="type" class="contentOption" >Text</Radio>
+<Radio name="type" class="contentOption" >JavaScript</Radio>
+<Radio name="type" class="contentOption" >JSON</Radio>
+<Radio name="type" class="contentOption" >HTML</Radio>
+<Radio name="type" class="contentOption" >XML</Radio>
 
 </div>
